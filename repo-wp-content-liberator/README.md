@@ -59,7 +59,7 @@ Claude.ai supports skills — instructions loaded into context when matching wor
 Clone the repo and read the markdown files. They stand alone as technical documentation.
 
 ```bash
-git clone https://github.com/<your-username>/wp-content-liberator.git
+git clone https://github.com/dabsterlabscy/wp-content-liberator.git
 cd wp-content-liberator
 less SKILL.md
 less references/bulletproof-overrides.md
