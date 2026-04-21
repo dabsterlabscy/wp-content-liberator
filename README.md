@@ -1,6 +1,6 @@
 # wp-content-liberator
 
-A Claude skill for **liberating content from hardcoded WordPress themes** — whether they came from React-to-WP converters like WPConvert, static HTML imports, page builders the owner wants to escape, or hand-coded themes that were never made editable.
+A Claude skill for **liberating content from hardcoded WordPress themes** — whether they came from React-to-WP converters, static HTML imports, page builders the owner wants to escape, or hand-coded themes that were never made editable.
 
 Turns a site where content lives in PHP template files into a **Customizer-editable, form-functional** WordPress site — using only WP core. No paid plugins. No SaaS subscriptions. No page builders.
 
@@ -23,7 +23,7 @@ wp-content-liberator/
 You're a developer or agency who's ended up with a WordPress site where:
 
 - Most content is hardcoded in `.php` template files instead of posts/Customizer
-- A converter (WPConvert, React-to-WP, static-to-WP) generated the theme
+- A converter generated the theme
 - A page builder (Elementor, Divi, Bricks) locked content into proprietary structures
 - The previous developer never wired up Customizer fields
 - The client can't edit copy without a developer
@@ -113,7 +113,7 @@ Homepage form uses `method="get" action="/contact"` — browser auto-appends nam
 
 ## Who wrote this?
 
-This skill emerged from a real project — rescuing a WPConvert-generated theme for Dabster Labs (AI automation agency in Cyprus & Greece). Every pattern documented here was learned by hitting the bug in production, diagnosing it, and finding a fix that actually worked across page templates, browsers, and environments.
+This skill emerged from a real project — rescuing a Converted-generated theme for Dabster Labs (AI automation agency in Cyprus & Greece). Every pattern documented here was learned by hitting the bug in production, diagnosing it, and finding a fix that actually worked across page templates, browsers, and environments.
 
 ## Contributing
 
